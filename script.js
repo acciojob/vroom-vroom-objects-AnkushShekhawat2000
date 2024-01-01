@@ -1,3 +1,4 @@
+// Complete the js code
 function Car(make, model) {
 	this.make=make;
 	this.model=model;
@@ -15,3 +16,6 @@ SportsCar.prototype._proto_= Car.prototype;
 SportsCar.prototype.getTopSpeed= function(){
 	return this.topSpeed;
 }
+// Do not change the code below
+window.Car = Car;
+window.SportsCar = SportsCar;
