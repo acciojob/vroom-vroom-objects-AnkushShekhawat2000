@@ -4,7 +4,7 @@ function Car(make, model) {
 	this.model=model;
 }
 Car.prototype.getMakeModel= function(){
-	return ${this.make} ${this.model};
+	return `${this.make} ${this.model}`;
 }
 
 function SportsCar(make, model, topSpeed) {
@@ -14,7 +14,7 @@ function SportsCar(make, model, topSpeed) {
 }
 SportsCar.prototype._proto_= Car.prototype;
 SportsCar.prototype.getTopSpeed= function(){
-	return this.topSpeed;
+	return `this.topSpeed`;
 }
 // Do not change the code below
 window.Car = Car;
